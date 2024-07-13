@@ -1,41 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GL Web App</title>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f7f7f7;
-    }
-    .container {
-        max-width: 800px;
-        margin: 50px auto;
-        padding: 20px;
-        background-color: #fff;
-        border-radius: 10px;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-        text-align: center;
-    }
-    h1 {
-        font-size: 3em;
-        color: #333;
-        margin-bottom: 20px;
-    }
-    h2 {
-        font-size: 2em;
-        color: #666;
-        margin-top: 10px;
-    }
-</style>
+    <meta charset="UTF-8">
+    <title>Great Learning Labs Web Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        h2 {
+            color: #34495e;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            font-size: 16px;
+            color: #fff;
+            background-color: #3498db;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #2980b9;
+        }
+        .radio-buttons {
+            margin: 20px 0;
+        }
+        marquee {
+            color: #e74c3c;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h1>This is a brand new web application in Great Learning Labs</h1>
-        <h2>We will deploy it using CI/CD</h2>
+
+<header>
+    <h1>Great Learning Labs Web Application</h1>
+</header>
+
+<div class="container">
+    <h2>We will deploy it using CI/CD</h2>
+    <h2>This is a great start</h2>
+
+    <div class="radio-buttons">
+        <p>Choose your learning preference:</p>
+        <label><input type="radio" name="learning" value="online"> Online Learning</label><br>
+        <label><input type="radio" name="learning" value="offline"> Offline Learning</label>
     </div>
+
+    <button class="btn" onclick="showAlert()">Click Me!</button>
+
+    <marquee behavior="scroll" direction="left">Stay tuned for more updates!</marquee>
+</div>
+
+<script>
+    function showAlert() {
+        alert("Button clicked!");
+    }
+</script>
+
 </body>
 </html>

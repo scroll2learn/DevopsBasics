@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Great Learning Labs Web Application</title>
+    <title>Jain Labs Web Application 22nd september</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -55,7 +55,7 @@
 <body>
 
 <header>
-    <h1>Great Learning Labs Web Application September 21 2024</h1>
+    <h1>Jain Labs Web Application September 22 2024</h1>
 </header>
 
 <div class="container">

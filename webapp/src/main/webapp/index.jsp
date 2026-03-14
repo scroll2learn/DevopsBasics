@@ -55,7 +55,7 @@
 <body>
 
 <header>
-    <h1>Jain Labs Web Application September 22 2024</h1>
+    <h1>Hero Labs Web Application!</h1>
 </header>
 
 <div class="container">
